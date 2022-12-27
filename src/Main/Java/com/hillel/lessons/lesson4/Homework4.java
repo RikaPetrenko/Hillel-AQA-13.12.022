@@ -31,11 +31,13 @@ System.out.println("Об'єм паралелепіпеда = " + volume);
 
 
         int V = X * Y * Z;
+        int L = X + Y + Z;
 
         System.out.println("Сторона А = " + X + "см");
         System.out.println("Сторона B = " + Y + "см");
         System.out.println("Сторона С = " + Z + "см");
-        System.out.println("Об'єм паралелепіпеда= " + V + " куб.см");
+        System.out.println("Об'єм паралелепіпеда = " + V + " куб.см");
+        System.out.println("Сумарна довжина сторін = " + L + " см");
 
 
 
