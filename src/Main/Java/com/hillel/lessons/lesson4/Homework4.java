@@ -21,5 +21,28 @@ System.out.println("Об'єм паралелепіпеда = " + volume);
          */
 
 
+        int X = 10;
+        int Y = 25;
+        int Z = 15;
+
+        //int A = X;
+        //int B = Y;
+        //int C = Z;
+
+
+        int V = X * Y * Z;
+
+        System.out.println("Сторона А = " + X + "см");
+        System.out.println("Сторона B = " + Y + "см");
+        System.out.println("Сторона С = " + Z + "см");
+        System.out.println("Об'єм паралелепіпеда= " + V + " куб.см");
+
+
+
+
+
+
+
+
     }
 }
