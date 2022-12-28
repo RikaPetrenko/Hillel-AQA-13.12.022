@@ -52,9 +52,6 @@ public class Homework5 {
 
 
 
-        //double MinTotal = (LiWarriorAmount + LiArcherAmount + LiHorsemanAmount) * MinMult;
-        //double
-
         System.out.println("Особовий склад армії Мінь: " + MinTotal);
         System.out.println("Загальна потужність армії Мінь: " + MinTotalPower);
         System.out.println();
@@ -63,21 +60,38 @@ public class Homework5 {
         System.out.println("Особовий склад армії Лі: " + LiTotal);
         System.out.println("Загальна потужність армії Лі: " + LiTotalPower);
 
-        //double A = "Армія Лі, с загальною потужністю: " + LiTotalPower;
-        //double B = "Армія Мінь, с загальною потужністю: " + MinTotalPower;
-        //double C = Math.max(A,B);
+
 
         double A = LiTotalPower;
         double B = MinTotalPower;
         double C = Math.max(A,B);
-        System.out.println();
-
         System.out.println("Перемагає: " + C);
 
+        System.out.println();
+
+        System.out.println("UPD.");
+
+        System.out.println("Або, альтернативний результат з IF");
 
 
 
-        //double MinFinal =
+
+        double L = LiTotalPower;
+        double M = MinTotalPower;
+        if (M < L) {
+            System.out.println("Перемагає Армія Лі, с загальною потужністю: " + LiTotalPower);
+        } else {
+            System.out.println("Перемагає Армія Мінь, с загальною потужністю: " + MinTotalPower);
+        }
+
+
+
+        //double MinTotal = (LiWarriorAmount + LiArcherAmount + LiHorsemanAmount) * MinMult;
+        //double
+        //double A = "Армія Лі, с загальною потужністю: " + LiTotalPower;
+        //double B = "Армія Мінь, с загальною потужністю: " + MinTotalPower;
+        //double C = Math.max(A,B);
+        //System.out.println("Перемагає: " + C);
 
         //System.out.println(("And the winner is:") + Math.max("Воїни Мінь, с загальною потужністю: " + MinTotalPower), ("Воїни Лі, с загальною потужністю: " + LiTotalPower));
 
