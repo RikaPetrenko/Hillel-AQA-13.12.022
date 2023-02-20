@@ -10,18 +10,10 @@ public class Banana extends FruitItem {
     }
 
 
-
-
     public String getDescription() {
-        return "Banana: " + getColor() + getCountry() + getQuantity();
+        return "Banana: " + getWeight() + " " + getCountry();
 
     }
-
-
-
-
-
-
 
 
 }

@@ -8,9 +8,12 @@ public class Ananas extends FruitItem {
         super(name, weight, size, color, country, quantity);
     }
 
+
+
+
     @Override
     public String getDescription() {
-        return "Ananas: " + getColor() + getCountry() + getQuantity();
+        return "Ananas: " + getCountry() + " " + getQuantity() + " " + getWeight();
 
 
     }

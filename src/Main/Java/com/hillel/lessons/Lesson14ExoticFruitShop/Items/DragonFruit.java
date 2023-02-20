@@ -13,11 +13,11 @@ public class DragonFruit extends FruitItem {
     private String FruitColor;
 
 
-
-
     public String getFruitColor() {
         return FruitColor;
     }
+
+
 
     public void setFruitColor(String dragonFruitColor) {
         this.FruitColor = getFruitColor();
@@ -29,9 +29,7 @@ public class DragonFruit extends FruitItem {
 
     @Override
     public String toString() {
-        return "Dragon Fruit" +
-                " type " + FruitColor + '\'' +
-                '}';
+        return "Dragon Fruit" + " " + FruitColor + getCountry() + " " + getQuantity();
     }
 
 
