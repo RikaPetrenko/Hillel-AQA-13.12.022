@@ -10,7 +10,7 @@ public class DragonFruit extends FruitItem {
         this.FruitColor = FruitColor;
     }
 
-    private String FruitColor;
+    private final String FruitColor;
 
 
     public String getFruitColor() {
