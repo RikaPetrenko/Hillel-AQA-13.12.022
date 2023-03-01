@@ -65,21 +65,4 @@ public class ProductMarket {
         return pricesString;
     }
 
-
-
-//    public ProductMarket(List<Products> productList) {
-//        this.productList = productList;
-//        System.out.println(getNamesAndPrices());
-//    }
-
-//    public List<String> getNamesAndPrices() {
-//        ArrayList<String> namesAndPrices = new ArrayList<>();
-//        for (Products products : productList) {
-//            namesAndPrices.add(products.getNamesAndPrices());
-//        }
-//        return namesAndPrices;
-//    }
-
-
-
 }
